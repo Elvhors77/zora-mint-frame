@@ -23,7 +23,7 @@ export default function Home() {
         }}
       >
         <a
-          href={`https://zora.co/collect/${base}:${0x1f2906a6fb92fd8622ea600a388e3510f585214d}/${1}`}
+          href={`https://zora.co/collect/base:0x1f2906a6fb92fd8622ea600a388e3510f585214d/1`}
           style={{ color: 'inherit' }}
         >
           GeeK-House mint!
