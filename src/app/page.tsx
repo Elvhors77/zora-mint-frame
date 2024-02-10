@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: SITE_URL ? new URL(SITE_URL) : undefined,
-  title: 'Geek House mint!',
+  title: 'geekhouse mint!',
   other: FRAME_METADATA,
 };
 
@@ -26,7 +26,7 @@ export default function Home() {
           href={`https://zora.co/collect/base:0x1f2906a6fb92fd8622ea600a388e3510f585214d/1`}
           style={{ color: 'inherit' }}
         >
-          GeeK-House mint!
+          geekhouse mint!
         </a>
       </h1>
     </div>
