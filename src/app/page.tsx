@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: SITE_URL ? new URL(SITE_URL) : undefined,
-  title: 'Free mint!',
+  title: 'Geek House mint!',
   other: FRAME_METADATA,
 };
 
@@ -23,10 +23,10 @@ export default function Home() {
         }}
       >
         <a
-          href={`https://zora.co/collect/${CHAIN.id}:${CONTRACT_ADDRESS}/${TOKEN_ID}`}
+          href={`https://zora.co/collect/${base}:${0x1f2906a6fb92fd8622ea600a388e3510f585214d}/${1}`}
           style={{ color: 'inherit' }}
         >
-          Free mint!
+          GeeK-House mint!
         </a>
       </h1>
     </div>
